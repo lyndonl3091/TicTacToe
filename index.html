@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+  <link rel="stylesheet" href="bower_components/sweetalert/dist/sweetalert.css">
+  <script src="bower_components/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="main.js"></script>
+
+</head>
+<body>
+    <h1>Let's Play Tic Tac Toe!</h1>
+    <div id="inputPlayers">
+        <input type="text" id="players" placeholder="Enter player name">
+        <button class="players">Add</button>
+        <div>Player 1: <span id="player1"></span></div>
+        <div>Player 2: <span id="player2"></span></div>
+        <div>Your Turn: <span id="turn"></span>
+    </div>
+  <div id="board">
+    <div id="1strow">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+    </div>
+    <div id="2ndrow">
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+    </div>
+    <div id="3rdrow">
+      <div class="box box7"></div>
+      <div class="box box8"></div>
+      <div class="box box9"></div>
+    </div>
+  </div>
+
+    <div class="reset">
+        <button class="resetGame">Reset</button>
+    </div>
+</body>
+</html>
