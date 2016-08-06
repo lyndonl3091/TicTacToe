@@ -52,7 +52,7 @@ $(document).ready(function () {
       $('#board').addClass('blue animated zoomIn').html('<img src="http://nintendoenthusiast.com/wp-content/uploads/2013/07/Game-over-widescreen-wallpaper-picture-photo-960x540.jpg">');
     }
 
-  winning();
+  winning($player1, $player2);
 
   }); // end click event
 
@@ -63,7 +63,7 @@ $(document).ready(function () {
 
   });
 
-function winning() {
+function winning(player1, player2) {
     var winning = [
         [".box1", ".box2", ".box3"],
         [".box4", ".box5", ".box6"],
@@ -96,12 +96,12 @@ function winning() {
           }
 
           if (circleWinCount === 3) {
-              swal('Player 1 Won!');
+              swal(`${player1} wins!`);
 
           }
 
           if (xWinCount === 3) {
-              swal('Player 2 Won!');
+              swal(`${player2} wins!`);
           }
 
         }
