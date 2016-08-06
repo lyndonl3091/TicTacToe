@@ -96,12 +96,12 @@ function winning() {
           }
 
           if (circleWinCount === 3) {
-              alert('Player 1 Won!');
+              swal('Player 1 Won!');
 
           }
 
           if (xWinCount === 3) {
-              alert('Player 2 Won!');
+              swal('Player 2 Won!');
           }
 
         }
