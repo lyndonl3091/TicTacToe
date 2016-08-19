@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Orbitron:900);
+@import 'https://fonts.googleapis.com/css?family=Ravi+Prakash';
 
 @font-face {
   font-family: "Pokemon";
@@ -11,7 +12,7 @@ body {
 }
 
 h1 {
- font-family: "Pokemon";
+ font-family: 'Ravi Prakash', cursive;
 }
 
 body {
